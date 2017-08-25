@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE838CAD1F4FF05800B29012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CAC1F4FF05800B29012 /* AppDelegate.swift */; };
+		DE838CAF1F4FF05800B29012 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CAE1F4FF05800B29012 /* GameViewController.swift */; };
+		DE838CB21F4FF05800B29012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838CB01F4FF05800B29012 /* Main.storyboard */; };
+		DE838CB51F4FF05800B29012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838CB31F4FF05800B29012 /* LaunchScreen.storyboard */; };
+		DE838CBA1F4FF05800B29012 /* RecursiveDraw.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DE838CB91F4FF05800B29012 /* RecursiveDraw.app */; };
+		DE838CC01F4FF05800B29012 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838CBE1F4FF05800B29012 /* Interface.storyboard */; };
+		DE838CC71F4FF05800B29012 /* RecursiveDraw Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE838CC61F4FF05800B29012 /* RecursiveDraw Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE838CCC1F4FF05800B29012 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CCB1F4FF05800B29012 /* InterfaceController.swift */; };
+		DE838CCE1F4FF05800B29012 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CCD1F4FF05800B29012 /* ExtensionDelegate.swift */; };
+		DE838CD71F4FF05800B29012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CD61F4FF05800B29012 /* AppDelegate.swift */; };
+		DE838CD91F4FF05800B29012 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CD81F4FF05800B29012 /* GameViewController.swift */; };
+		DE838CDC1F4FF05800B29012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838CDA1F4FF05800B29012 /* Main.storyboard */; };
+		DE838CE51F4FF05900B29012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CE41F4FF05900B29012 /* AppDelegate.swift */; };
+		DE838CE71F4FF05900B29012 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CE61F4FF05900B29012 /* GameViewController.swift */; };
+		DE838CEA1F4FF05900B29012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE838CE81F4FF05900B29012 /* Main.storyboard */; };
+		DE838CEC1F4FF05900B29012 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA11F4FF05800B29012 /* Actions.sks */; };
+		DE838CED1F4FF05900B29012 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA11F4FF05800B29012 /* Actions.sks */; };
+		DE838CEE1F4FF05900B29012 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA11F4FF05800B29012 /* Actions.sks */; };
+		DE838CEF1F4FF05900B29012 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA21F4FF05800B29012 /* GameScene.sks */; };
+		DE838CF01F4FF05900B29012 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA21F4FF05800B29012 /* GameScene.sks */; };
+		DE838CF11F4FF05900B29012 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA21F4FF05800B29012 /* GameScene.sks */; };
+		DE838CF21F4FF05900B29012 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA21F4FF05800B29012 /* GameScene.sks */; };
+		DE838CF31F4FF05900B29012 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CA31F4FF05800B29012 /* GameScene.swift */; };
+		DE838CF41F4FF05900B29012 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CA31F4FF05800B29012 /* GameScene.swift */; };
+		DE838CF51F4FF05900B29012 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CA31F4FF05800B29012 /* GameScene.swift */; };
+		DE838CF61F4FF05900B29012 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE838CA31F4FF05800B29012 /* GameScene.swift */; };
+		DE838CF71F4FF05900B29012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA41F4FF05800B29012 /* Assets.xcassets */; };
+		DE838CF81F4FF05900B29012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA41F4FF05800B29012 /* Assets.xcassets */; };
+		DE838CF91F4FF05900B29012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA41F4FF05800B29012 /* Assets.xcassets */; };
+		DE838CFA1F4FF05900B29012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA41F4FF05800B29012 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE838CBB1F4FF05800B29012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE838C9C1F4FF05800B29012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE838CB81F4FF05800B29012;
+			remoteInfo = "RecursiveDraw watchOS App";
+		};
+		DE838CC81F4FF05800B29012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE838C9C1F4FF05800B29012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE838CC51F4FF05800B29012;
+			remoteInfo = "RecursiveDraw watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE838D001F4FF05900B29012 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE838CC71F4FF05800B29012 /* RecursiveDraw Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838D041F4FF05900B29012 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DE838CBA1F4FF05800B29012 /* RecursiveDraw.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE838CA11F4FF05800B29012 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DE838CA21F4FF05800B29012 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DE838CA31F4FF05800B29012 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DE838CA41F4FF05800B29012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE838CA91F4FF05800B29012 /* RecursiveDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE838CAC1F4FF05800B29012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE838CAE1F4FF05800B29012 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE838CB11F4FF05800B29012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE838CB41F4FF05800B29012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE838CB61F4FF05800B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE838CB91F4FF05800B29012 /* RecursiveDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE838CBF1F4FF05800B29012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DE838CC11F4FF05800B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE838CC61F4FF05800B29012 /* RecursiveDraw Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RecursiveDraw Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE838CCB1F4FF05800B29012 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DE838CCD1F4FF05800B29012 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DE838CCF1F4FF05800B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE838CD41F4FF05800B29012 /* RecursiveDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE838CD61F4FF05800B29012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE838CD81F4FF05800B29012 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE838CDB1F4FF05800B29012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE838CDD1F4FF05800B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE838CE21F4FF05900B29012 /* RecursiveDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE838CE41F4FF05900B29012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE838CE61F4FF05900B29012 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE838CE91F4FF05900B29012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE838CEB1F4FF05900B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE838CA61F4FF05800B29012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CC31F4FF05800B29012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CD11F4FF05800B29012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CDF1F4FF05900B29012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE838C9B1F4FF05800B29012 = {
+			isa = PBXGroup;
+			children = (
+				DE838CA01F4FF05800B29012 /* RecursiveDraw Shared */,
+				DE838CAB1F4FF05800B29012 /* RecursiveDraw iOS */,
+				DE838CBD1F4FF05800B29012 /* RecursiveDraw watchOS App */,
+				DE838CCA1F4FF05800B29012 /* RecursiveDraw watchOS App Extension */,
+				DE838CD51F4FF05800B29012 /* RecursiveDraw tvOS */,
+				DE838CE31F4FF05900B29012 /* RecursiveDraw macOS */,
+				DE838CAA1F4FF05800B29012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE838CA01F4FF05800B29012 /* RecursiveDraw Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CA11F4FF05800B29012 /* Actions.sks */,
+				DE838CA21F4FF05800B29012 /* GameScene.sks */,
+				DE838CA31F4FF05800B29012 /* GameScene.swift */,
+				DE838CA41F4FF05800B29012 /* Assets.xcassets */,
+			);
+			path = "RecursiveDraw Shared";
+			sourceTree = "<group>";
+		};
+		DE838CAA1F4FF05800B29012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CA91F4FF05800B29012 /* RecursiveDraw.app */,
+				DE838CB91F4FF05800B29012 /* RecursiveDraw.app */,
+				DE838CC61F4FF05800B29012 /* RecursiveDraw Extension.appex */,
+				DE838CD41F4FF05800B29012 /* RecursiveDraw.app */,
+				DE838CE21F4FF05900B29012 /* RecursiveDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE838CAB1F4FF05800B29012 /* RecursiveDraw iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CAC1F4FF05800B29012 /* AppDelegate.swift */,
+				DE838CAE1F4FF05800B29012 /* GameViewController.swift */,
+				DE838CB01F4FF05800B29012 /* Main.storyboard */,
+				DE838CB31F4FF05800B29012 /* LaunchScreen.storyboard */,
+				DE838CB61F4FF05800B29012 /* Info.plist */,
+			);
+			path = "RecursiveDraw iOS";
+			sourceTree = "<group>";
+		};
+		DE838CBD1F4FF05800B29012 /* RecursiveDraw watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CBE1F4FF05800B29012 /* Interface.storyboard */,
+				DE838CC11F4FF05800B29012 /* Info.plist */,
+			);
+			path = "RecursiveDraw watchOS App";
+			sourceTree = "<group>";
+		};
+		DE838CCA1F4FF05800B29012 /* RecursiveDraw watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CCB1F4FF05800B29012 /* InterfaceController.swift */,
+				DE838CCD1F4FF05800B29012 /* ExtensionDelegate.swift */,
+				DE838CCF1F4FF05800B29012 /* Info.plist */,
+			);
+			path = "RecursiveDraw watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		DE838CD51F4FF05800B29012 /* RecursiveDraw tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CD61F4FF05800B29012 /* AppDelegate.swift */,
+				DE838CD81F4FF05800B29012 /* GameViewController.swift */,
+				DE838CDA1F4FF05800B29012 /* Main.storyboard */,
+				DE838CDD1F4FF05800B29012 /* Info.plist */,
+			);
+			path = "RecursiveDraw tvOS";
+			sourceTree = "<group>";
+		};
+		DE838CE31F4FF05900B29012 /* RecursiveDraw macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE838CE41F4FF05900B29012 /* AppDelegate.swift */,
+				DE838CE61F4FF05900B29012 /* GameViewController.swift */,
+				DE838CE81F4FF05900B29012 /* Main.storyboard */,
+				DE838CEB1F4FF05900B29012 /* Info.plist */,
+			);
+			path = "RecursiveDraw macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE838CA81F4FF05800B29012 /* RecursiveDraw iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE838D051F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw iOS" */;
+			buildPhases = (
+				DE838CA51F4FF05800B29012 /* Sources */,
+				DE838CA61F4FF05800B29012 /* Frameworks */,
+				DE838CA71F4FF05800B29012 /* Resources */,
+				DE838D041F4FF05900B29012 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE838CBC1F4FF05800B29012 /* PBXTargetDependency */,
+			);
+			name = "RecursiveDraw iOS";
+			productName = "RecursiveDraw iOS";
+			productReference = DE838CA91F4FF05800B29012 /* RecursiveDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE838CB81F4FF05800B29012 /* RecursiveDraw watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE838D011F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw watchOS App" */;
+			buildPhases = (
+				DE838CB71F4FF05800B29012 /* Resources */,
+				DE838D001F4FF05900B29012 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE838CC91F4FF05800B29012 /* PBXTargetDependency */,
+			);
+			name = "RecursiveDraw watchOS App";
+			productName = "RecursiveDraw watchOS App";
+			productReference = DE838CB91F4FF05800B29012 /* RecursiveDraw.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DE838CC51F4FF05800B29012 /* RecursiveDraw watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE838CFD1F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw watchOS App Extension" */;
+			buildPhases = (
+				DE838CC21F4FF05800B29012 /* Sources */,
+				DE838CC31F4FF05800B29012 /* Frameworks */,
+				DE838CC41F4FF05800B29012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecursiveDraw watchOS App Extension";
+			productName = "RecursiveDraw watchOS App Extension";
+			productReference = DE838CC61F4FF05800B29012 /* RecursiveDraw Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		DE838CD31F4FF05800B29012 /* RecursiveDraw tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE838D081F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw tvOS" */;
+			buildPhases = (
+				DE838CD01F4FF05800B29012 /* Sources */,
+				DE838CD11F4FF05800B29012 /* Frameworks */,
+				DE838CD21F4FF05800B29012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecursiveDraw tvOS";
+			productName = "RecursiveDraw tvOS";
+			productReference = DE838CD41F4FF05800B29012 /* RecursiveDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE838CE11F4FF05900B29012 /* RecursiveDraw macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE838D0B1F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw macOS" */;
+			buildPhases = (
+				DE838CDE1F4FF05900B29012 /* Sources */,
+				DE838CDF1F4FF05900B29012 /* Frameworks */,
+				DE838CE01F4FF05900B29012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecursiveDraw macOS";
+			productName = "RecursiveDraw macOS";
+			productReference = DE838CE21F4FF05900B29012 /* RecursiveDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE838C9C1F4FF05800B29012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Wesley Van der Klomp";
+				TargetAttributes = {
+					DE838CA81F4FF05800B29012 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DE838CB81F4FF05800B29012 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DE838CC51F4FF05800B29012 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DE838CD31F4FF05800B29012 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DE838CE11F4FF05900B29012 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = DE838C9F1F4FF05800B29012 /* Build configuration list for PBXProject "RecursiveDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE838C9B1F4FF05800B29012;
+			productRefGroup = DE838CAA1F4FF05800B29012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE838CA81F4FF05800B29012 /* RecursiveDraw iOS */,
+				DE838CB81F4FF05800B29012 /* RecursiveDraw watchOS App */,
+				DE838CC51F4FF05800B29012 /* RecursiveDraw watchOS App Extension */,
+				DE838CD31F4FF05800B29012 /* RecursiveDraw tvOS */,
+				DE838CE11F4FF05900B29012 /* RecursiveDraw macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE838CA71F4FF05800B29012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CEF1F4FF05900B29012 /* GameScene.sks in Resources */,
+				DE838CB21F4FF05800B29012 /* Main.storyboard in Resources */,
+				DE838CEC1F4FF05900B29012 /* Actions.sks in Resources */,
+				DE838CB51F4FF05800B29012 /* LaunchScreen.storyboard in Resources */,
+				DE838CF71F4FF05900B29012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CB71F4FF05800B29012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF81F4FF05900B29012 /* Assets.xcassets in Resources */,
+				DE838CC01F4FF05800B29012 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CC41F4FF05800B29012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF01F4FF05900B29012 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CD21F4FF05800B29012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CDC1F4FF05800B29012 /* Main.storyboard in Resources */,
+				DE838CF11F4FF05900B29012 /* GameScene.sks in Resources */,
+				DE838CF91F4FF05900B29012 /* Assets.xcassets in Resources */,
+				DE838CED1F4FF05900B29012 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CE01F4FF05900B29012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CEA1F4FF05900B29012 /* Main.storyboard in Resources */,
+				DE838CF21F4FF05900B29012 /* GameScene.sks in Resources */,
+				DE838CFA1F4FF05900B29012 /* Assets.xcassets in Resources */,
+				DE838CEE1F4FF05900B29012 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE838CA51F4FF05800B29012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF31F4FF05900B29012 /* GameScene.swift in Sources */,
+				DE838CAF1F4FF05800B29012 /* GameViewController.swift in Sources */,
+				DE838CAD1F4FF05800B29012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CC21F4FF05800B29012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF41F4FF05900B29012 /* GameScene.swift in Sources */,
+				DE838CCE1F4FF05800B29012 /* ExtensionDelegate.swift in Sources */,
+				DE838CCC1F4FF05800B29012 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CD01F4FF05800B29012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF51F4FF05900B29012 /* GameScene.swift in Sources */,
+				DE838CD91F4FF05800B29012 /* GameViewController.swift in Sources */,
+				DE838CD71F4FF05800B29012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE838CDE1F4FF05900B29012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE838CF61F4FF05900B29012 /* GameScene.swift in Sources */,
+				DE838CE71F4FF05900B29012 /* GameViewController.swift in Sources */,
+				DE838CE51F4FF05900B29012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE838CBC1F4FF05800B29012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE838CB81F4FF05800B29012 /* RecursiveDraw watchOS App */;
+			targetProxy = DE838CBB1F4FF05800B29012 /* PBXContainerItemProxy */;
+		};
+		DE838CC91F4FF05800B29012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE838CC51F4FF05800B29012 /* RecursiveDraw watchOS App Extension */;
+			targetProxy = DE838CC81F4FF05800B29012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE838CB01F4FF05800B29012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE838CB11F4FF05800B29012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE838CB31F4FF05800B29012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE838CB41F4FF05800B29012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE838CBE1F4FF05800B29012 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE838CBF1F4FF05800B29012 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		DE838CDA1F4FF05800B29012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE838CDB1F4FF05800B29012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE838CE81F4FF05900B29012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE838CE91F4FF05900B29012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE838CFB1F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE838CFC1F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DE838CFE1F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "RecursiveDraw Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		DE838CFF1F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "RecursiveDraw Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		DE838D021F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				IBSC_MODULE = RecursiveDraw_Extension;
+				INFOPLIST_FILE = "RecursiveDraw watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw.watchkitapp;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		DE838D031F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				IBSC_MODULE = RecursiveDraw_Extension;
+				INFOPLIST_FILE = "RecursiveDraw watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw.watchkitapp;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		DE838D061F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE838D071F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE838D091F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		DE838D0A1F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE838D0C1F4FF05900B29012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DE838D0D1F4FF05900B29012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B2HHR6H4K6;
+				INFOPLIST_FILE = "RecursiveDraw macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = vdk.wes.RecursiveDraw;
+				PRODUCT_NAME = RecursiveDraw;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE838C9F1F4FF05800B29012 /* Build configuration list for PBXProject "RecursiveDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838CFB1F4FF05900B29012 /* Debug */,
+				DE838CFC1F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE838CFD1F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838CFE1F4FF05900B29012 /* Debug */,
+				DE838CFF1F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE838D011F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838D021F4FF05900B29012 /* Debug */,
+				DE838D031F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE838D051F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838D061F4FF05900B29012 /* Debug */,
+				DE838D071F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE838D081F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838D091F4FF05900B29012 /* Debug */,
+				DE838D0A1F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE838D0B1F4FF05900B29012 /* Build configuration list for PBXNativeTarget "RecursiveDraw macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE838D0C1F4FF05900B29012 /* Debug */,
+				DE838D0D1F4FF05900B29012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE838C9C1F4FF05800B29012 /* Project object */;
+}
