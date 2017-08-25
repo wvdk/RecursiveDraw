@@ -111,6 +111,7 @@
 		DE838CEB1F4FF05900B29012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE838D0E1F4FF14B00B29012 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE838D0F1F4FF15600B29012 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEDCF8F01F50710D006A171B /* 2017-08-25.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "2017-08-25.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,7 @@
 		DE838C9B1F4FF05800B29012 = {
 			isa = PBXGroup;
 			children = (
+				DEDCF8EF1F5070F4006A171B /* Developer's Log */,
 				DE838D0E1F4FF14B00B29012 /* README.md */,
 				DE838D0F1F4FF15600B29012 /* LICENSE */,
 				DE838CA01F4FF05800B29012 /* RecursiveDraw Shared */,
@@ -234,6 +236,14 @@
 				DE838CEB1F4FF05900B29012 /* Info.plist */,
 			);
 			path = "RecursiveDraw macOS";
+			sourceTree = "<group>";
+		};
+		DEDCF8EF1F5070F4006A171B /* Developer's Log */ = {
+			isa = PBXGroup;
+			children = (
+				DEDCF8F01F50710D006A171B /* 2017-08-25.md */,
+			);
+			path = "Developer's Log";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
