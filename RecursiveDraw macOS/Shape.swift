@@ -8,6 +8,30 @@
 
 import Foundation
 
-class Shape {
+
+/********************************************
+ Coordinate system:
+ (x: 0, y: 10)           (x: 10, y: 10)
+ |||||||||||||
+ |||||||||||||
+ |||||||||||||
+ |||||||||||||
+ |||||||||||||
+ (x: 0, y: 0)            (x: 10, y: 0)
+ ********************************************/
+
+struct Shape {
+    
+    let size: CGSize
+    
+    /// Relative to parent
+    var position: CGPoint
+    
+    /// An array containing normal Shapes or recursive Shapes
+    var children: [ShapeName] = []
+    
+    // On hold:
+    //    var childTransforms: [ShapeTransform] = []
+    
     
 }
