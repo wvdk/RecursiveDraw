@@ -124,6 +124,7 @@
 		DEDCF8F71F516CA6006A171B /* ShapeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeName.swift; sourceTree = "<group>"; };
 		DEDCF8F91F516D81006A171B /* SpriteKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRenderer.swift; sourceTree = "<group>"; };
 		DEDCF8FB1F516F10006A171B /* RenderedShapeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderedShapeNode.swift; sourceTree = "<group>"; };
+		DEDCF8FD1F517029006A171B /* 2017-08-26.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "2017-08-26.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				DEDCF8F01F50710D006A171B /* 2017-08-25.md */,
+				DEDCF8FD1F517029006A171B /* 2017-08-26.md */,
 			);
 			path = "Developer's Log";
 			sourceTree = "<group>";
