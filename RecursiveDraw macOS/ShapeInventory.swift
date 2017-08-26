@@ -8,6 +8,6 @@
 
 import Foundation
 
-typealias ShapeInventory = Dictionary<String, Shape>
+typealias ShapeInventory = Dictionary<ShapeName, Shape>
 
 var shapeInventory: ShapeInventory = [:]
