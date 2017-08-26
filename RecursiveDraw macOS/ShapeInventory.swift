@@ -10,4 +10,4 @@ import Foundation
 
 typealias ShapeInventory = Dictionary<String, Shape>
 
-let shapeInventory: ShapeInventory = [:]
+var shapeInventory: ShapeInventory = [:]

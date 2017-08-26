@@ -39,6 +39,7 @@
 		DE838CFA1F4FF05900B29012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE838CA41F4FF05800B29012 /* Assets.xcassets */; };
 		DEDCF8F21F51674C006A171B /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCF8F11F51674C006A171B /* Shape.swift */; };
 		DEDCF8F41F516769006A171B /* ShapeInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCF8F31F516769006A171B /* ShapeInventory.swift */; };
+		DEDCF8F61F516C4C006A171B /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCF8F51F516C4C006A171B /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		DEDCF8F01F50710D006A171B /* 2017-08-25.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "2017-08-25.md"; sourceTree = "<group>"; };
 		DEDCF8F11F51674C006A171B /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		DEDCF8F31F516769006A171B /* ShapeInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeInventory.swift; sourceTree = "<group>"; };
+		DEDCF8F51F516C4C006A171B /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = "RecursiveDraw macOS/Renderer.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			children = (
 				DE838CE41F4FF05900B29012 /* AppDelegate.swift */,
 				DE838CE61F4FF05900B29012 /* GameViewController.swift */,
+				DEDCF8F51F516C4C006A171B /* Renderer.swift */,
 				DEDCF8F11F51674C006A171B /* Shape.swift */,
 				DEDCF8F31F516769006A171B /* ShapeInventory.swift */,
 				DE838CE81F4FF05900B29012 /* Main.storyboard */,
@@ -484,6 +487,7 @@
 				DE838CE71F4FF05900B29012 /* GameViewController.swift in Sources */,
 				DEDCF8F41F516769006A171B /* ShapeInventory.swift in Sources */,
 				DE838CE51F4FF05900B29012 /* AppDelegate.swift in Sources */,
+				DEDCF8F61F516C4C006A171B /* Renderer.swift in Sources */,
 				DEDCF8F21F51674C006A171B /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
